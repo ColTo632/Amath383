@@ -26,9 +26,8 @@ plot(t,va(:,1))
 plot(t,va(:,2))
 plot(t,va(:,3))
 grid on
-
-title('Predator and Prey Populations over time at equillibrium.')
 legend('X', 'Y', 'Z')
+title('Predator and Prey Populations over time at equillibrium.')
 xlabel('Time')
 ylabel('Population')
 hold off
@@ -86,7 +85,6 @@ for i = 1:6
     plot3(va(:,1),va(:,2),va(:,3)) 
 end
 
-title('Phase plot of Predator and Prey Populations - Higher operating costs.')
 xlabel('Prey Population X')
 ylabel('Predator Population Y')
 zlabel('Predator Population Z')
